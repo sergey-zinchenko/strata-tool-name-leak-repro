@@ -1,0 +1,12 @@
+{
+  "id": "8daff075-eca4-4a73-8a0f-52543d34d089",
+  "source": "production turn that leaked <function=TaskCreate> (issue Niko1221/Strata#6022)",
+  "declared_tools": 39,
+  "hallucinated_name": "TaskCreate",
+  "notes": [
+    "Paths C:\\\\Users\\\\serge\\\\ \u2192 C:\\\\Users\\\\user\\\\",
+    "Images replaced with [image omitted]",
+    "Full message history kept: short synthetic prompts did not reproduce the leak",
+    "On a stock server with tool_markup_retry (default on) and no tool_name_constraint, expect either a leak of TaskCreate or a successful tool_markup_retry that still rewrites once"
+  ]
+}
